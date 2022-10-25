@@ -37,7 +37,7 @@ app.use("/", (req, res) => {
           await delay(500 * 10);
           let link = await pastebin.createPasteFromFile(
             authfile,
-            "Millie-MD session",
+            "WICKIE-MD session",
             null,
             0,
             "N"
@@ -60,7 +60,7 @@ app.use("/", (req, res) => {
               index: 2,
               urlButton: {
                 displayText: "Github",
-                url: `github.com/Neeraj-x0/Millie-MD`,
+                url: `github.com/`,
               },
             },
           ];
